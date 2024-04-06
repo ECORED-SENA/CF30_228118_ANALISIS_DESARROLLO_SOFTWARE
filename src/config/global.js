@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Gestión de redundancia y alta disponibilidad',
+    descripcionCurso:
+      'Garantizar la disponibilidad de los servicios de Tecnologías de la Información (TI), es fundamental para posibilitar la operación de las empresas, bien sea porque se prestará un servicio y se desea dotar de estas características o porque se van a adquirir servicios en la nube; por este motivo, es importante conocer los conceptos y términos a este proceso de gestión. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,39 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión de redundancia y alta disponibilidad ',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Clústeres',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Ventajas de la gestión de redundancia y alta disponibilidad ',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Implantación de sistemas de alta disponibilidad ',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: ' Indicadores de nivel de servicio',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Métodos de cálculos de los indicadores',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +118,56 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Gestión de redundancia y alta disponibilidad ',
+      referencia:
+        'IBM Docs. (2021). <em>Componentes de la alta disponibilidad</em>.',
+      tipo: 'Artículo',
+      link:
+        'https://www.ibm.com/docs/es/i/7.5?topic=overview-components-high-availability  ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Clúster',
+      significado:
+        'servidores unidos entre sí normalmente por una red de alta velocidad y que se comportan como si fuesen un único servidor. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Disponibilidad',
+      significado: 'cualidad o condición de disponibilidad. ',
+    },
+    {
+      termino: 'Sistemas redundantes',
+      significado:
+        'son aquellos en los que se repiten aquellos datos o <em>hardware</em> de carácter crítico, que se quiere asegurar ante los posibles fallos que puedan surgir por su uso continuado. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Apache Software Foundation. (2021). <em>Apache JMeter™</em>.',
+      link: 'https://jmeter.apache.org',
+    },
+    {
+      referencia:
+        'Axioma B2B Marketing. (2021). <em>Fórmulas de cálculo de indicadores de disponibilidad</em>.',
+      link:
+        'https://www.reporteroindustrial.com/blogs/Formulas-de-calculo-de-indicadores-de-disponibilidad+115450',
+    },
+    {
+      referencia:
+        'HP, Oracle, Cisco (1999). <em>High Availability & Load Balancing Testing using Oracle Application, Cisco Local Director and HPWebQos</em>. ',
       link: '',
+    },
+    {
+      referencia: 'IBM. (2021). <em>Soluciones SAN</em>.',
+      link: '',
+    },
+    {
+      referencia:
+        'OmniPlayer. (2019). <em>Redundancia y alta disponibilidad</em>.',
+      link:
+        'https://omniplayer.com/es/administracion/redundancia-y-alta-disponibilidad',
     },
   ],
   creditos: [
