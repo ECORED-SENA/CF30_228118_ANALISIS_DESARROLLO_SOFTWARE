@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/tema1/1.svg")
       .col(style="place-self:center;" data-aos="fade-left")
-        p.mb-0 Para conocer sobre gestión de redundancia y alta disponibilidad, es importante identificar que la primera se centra en la capacidad de interconectar los #[em data centers] en caso que el principal falle, mientras que la alta disponibilidad se centra en la capacidad de tener operando los sistemas sin interrupción. En ocasiones, se ofrecen servicios de alta disponibilidad (HA, de inglés #[em High Availability]) y para ello, es indispensable iniciar con el #[em backup] de los datos, porque la alta disponibilidad no conlleva copia de la información.  
+        p.mb-0 Para conocer sobre gestión de redundancia y alta disponibilidad, es importante identificar que la primera se centra en la capacidad de interconectar los #[em data centers] en caso de que el principal falle, mientras que la alta disponibilidad se centra en la capacidad de tener operando los sistemas sin interrupción. En ocasiones, se ofrecen servicios de alta disponibilidad (HA, de inglés #[em High Availability]) y para ello, es indispensable iniciar con el #[em backup] de los datos, porque la alta disponibilidad no conlleva copia de la información.  
     
     p.mt-4(data-aos="fade-up") A continuación, se profundizará en estos conceptos: 
 
@@ -61,7 +61,7 @@
       .titulo-segundo(data-aos="flip-up")
         h2#t_1_1 1.1  Clústeres
       
-      p(data-aos="fade-right") Cuando la HA es activo-activo, se puede tener mejor desempeño al existir balaceo de cargas, a este tipo de agrupación se le denomina clúster, que es el nombre que se le da a un sistema compuesto de más de una unidad de procesamiento, que trabajan de manera unificada con el mismo objetivo. Estas máquinas tienen en común que realizan las mismas tareas, debido a que tienen una similitud en la configuración y los sistemas informáticos, de manera que pueden trabajar de forma simultánea. 
+      p(data-aos="fade-right") Cuando la HA es activo-activo, se puede tener mejor desempeño al existir balanceo de cargas, a este tipo de agrupación se le denomina clúster, que es el nombre que se le da a un sistema compuesto de más de una unidad de procesamiento, que trabajan de manera unificada con el mismo objetivo. Estas máquinas tienen en común que realizan las mismas tareas, debido a que tienen una similitud en la configuración y los sistemas informáticos, de manera que pueden trabajar de forma simultánea. 
 
       .row.mt-4
         .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
@@ -108,18 +108,18 @@
                   p.mb-0 En un clúster los nodos se interconectan gracias a una tecnología o infraestructura de red, generalmente una ya conocida por la empresa, pensando en la facilidad de mantenimiento y control de los costos. Es así, como cada nodo desempeña la misma función que los demás nodos, siendo posible suprimir o adicionar nuevos cuando sea necesario, aún si el clúster se mantiene en funcionamiento sin interrupciones, de tal forma que estas operaciones de agregar o quitar no perjudican el proceso, porque las tareas se distribuyen automáticamente, sin ocasionar problemas.
             p.mt-4 Para que el sistema sea escalable es importante saber que no existe límite de nodos que se puedan operar en un solo clúster y esto es muy importante cuando las empresas están en proceso de crecimiento continuo.  
             p Básicamente existen dos tipos de clúster o motivos por los que se configuran los clústeres: 
-          .col-lg-3(data-aos="fade-left" style="place-self:center;")
+          .col-lg-3.d-none.d-md-block(data-aos="fade-left" style="place-self:center;")
             figure.m-auto.col-7.col-md-6.col-lg-12
               img(src="@/assets/curso/tema1/9.png" style="place-self:center;")
       .row.mt-4
-        .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        .col-lg-3.mb-4.mb-lg-0.d-none.d-md-block(data-aos="fade-right" style="place-self:center;")
           figure.m-auto.col-7.col-md-7.col-lg-12
             img(src="@/assets/curso/tema1/10.png" style="place-self:center;")
         .col-lg-9(data-aos="fade-left")
           AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row.col-xl-11.m-auto(titulo="Clúster de alto desempeño (<em>High Performance Computing Cluster</em>)")
               p Se utiliza cuando el objetivo es resolver problemas que requieren de mucho procesamiento concurrente, es decir, simultáneo, permitiendo realizarlos en un tiempo útil y de manera que satisfaga la expectativa del usuario. Para lograr esto se hace uso de la técnica de balanceo de carga (#[em Load Balancing]), que consiste en repartir las tareas de manera similar o equilibrada (balanceada) entre los nodos.
-            .row.col-xl-11.m-auto(titulo="Clúster de alta disponibilidad (<em>High Performance Computing Cluster</em>)")
+            .row.col-xl-11.m-auto(titulo="Clúster de alta disponibilidad (<em>High Availability Computing Cluster</em>)")
               p Su principal objetivo es mantener el sistema en funcionamiento, es decir, está centrado en saber responder automáticamente a fallos sin afectar la continuidad de la prestación del servicio. Para esto, es necesario dotar al clúster de herramientas control y monitoreo de fallas en la interconexión o en los nodos, redundancia de sistemas, sistemas sustitutos o de respaldo, entre otros. 
     
     Separador

@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/tema2/1.svg")
       .col(style="place-self:center;" data-aos="fade-left")
-        p.mb-0 La implantación requiere de algunos lineamientos, independiente de la tecnología de clustering o de almacenamiento, se centra en que sea servible para las tecnologías actuales y futuras dentro de una organización.  
+        p.mb-0 La implantación requiere de algunos lineamientos, independiente de la tecnología de #[em clustering] o de almacenamiento, se centra en que sea servible para las tecnologías actuales y futuras dentro de una organización.  
     
     p.mt-4(data-aos="fade-up") A continuación, conozca las siguientes definiciones: 
 
@@ -74,7 +74,7 @@
           SlyderA(tipo="b")
             .row.col-xl-11.m-auto
               h4 Disponibilidad
-              p Es el cociente entre el tiempo que el sistema está disponible y el tiempo total de paradas de los servicios por servicios de mantenimiento programada y notificado o coordinado con el cliente. Para calcularlo, es necesario conocer el tiempo disponible como resta entre el tiempo total por las paradas de mantenimiento previamente programado y el tiempo por parada no programada. Una vez obtenido se divide el resultado entre el tiempo total del periodo considerado.  
+              p Es el cociente entre el tiempo que el sistema está disponible y el tiempo total de paradas de los servicios por servicios de mantenimiento programado y notificado o coordinado con el cliente. Para calcularlo, es necesario conocer el tiempo disponible como resta entre el tiempo total por las paradas de mantenimiento previamente programado y el tiempo por parada no programada. Una vez obtenido se divide el resultado entre el tiempo total del periodo considerado.  
               figure.m-auto.col-12.col-md-12.col-lg-9.mt-4
                 img(src='@/assets/curso/tema2/7.svg' alt="La disponibilidad es igual a las horas totales disponibles menos las horas totales de paradas por mantenimiento programado, sobre las horas totales.")
             .row.col-xl-11.m-auto
@@ -115,7 +115,7 @@
           .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
             AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               .row.col-xl-11.m-auto(titulo="Integridad y respaldo de los datos")
-                p Mediante la integridad de datos, se puede asegurar que no ha sido modificada por terceros. Para garantizar la integridad en los datos almacenados o transmitidos ,se emplean técnicas como cifrado o firmas digitales. 
+                p Mediante la integridad de datos, se puede asegurar que no ha sido modificada por terceros. Para garantizar la integridad en los datos almacenados o transmitidos, se emplean técnicas como cifrado o firmas digitales. 
                 p Garantizar esto es un poco más difícil, generalmente es algún #[em malware] o alguna función interna de algún sistema operativo que tenga un bache de seguridad. 
                 p Sin embargo, existen herramientas para detectar este tipo de vulnerabilidades, como #[em Rootkit Hunger], por citar un ejemplo. 
               .row.col-xl-11.m-auto(titulo="Servidores redundantes ")
