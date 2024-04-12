@@ -77,7 +77,7 @@
             li.d-flex
               .lista-ol--cuadro__vineta(style="background-color:#00FFDF;")
                 span.fw-bold(style="color:initial;") 2
-              div #[em Containers]
+              div #[em Containers].
             li 
               .lista-ol--cuadro__vineta(style="background-color:#00FFDF;")
                 span.fw-bold(style="color:initial;") 3
