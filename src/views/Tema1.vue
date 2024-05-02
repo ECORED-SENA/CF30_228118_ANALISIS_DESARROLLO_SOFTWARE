@@ -40,7 +40,7 @@
                 h4 Operación de los servicios 
                 p La alta disponibilidad puede ser de dos formas, para poder mantener en operación los servicios:  
                 p #[strong Activo-Activo:] ambos equipos, dispositivos o sistemas, están funcionando simultáneamente y generalmente se están repartiendo la carga de trabajo entre ellos. 
-                p #[strong Activo-Pasivo:] solo uno de los dispositivos o servicios están en operación, mientras que el segundo equipo, solamente entra en operación, cuando el primero se ha “caído” o no está disponible. En este caso es posible utilizar una copia existente (de un momento determinado de tiempo) de los datos. 
+                p #[strong Activo-Pasivo:] solo uno de los dispositivos o servicios está en operación, mientras que el segundo equipo, solamente entra en operación, cuando el primero se ha “caído” o no está disponible. En este caso es posible utilizar una copia existente (de un momento determinado de tiempo) de los datos. 
               .col-lg-5(style="place-self:center;")
                 figure.m-auto.col-7.col-md-5.col-lg-12
                   img(src='@/assets/curso/tema1/5.png' alt="")

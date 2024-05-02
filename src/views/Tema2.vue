@@ -84,7 +84,7 @@
                 img(src='@/assets/curso/tema2/8.svg' alt="La fiabilidad es igual a las horas totales disponibles menos las horas totales de paradas por mantenimiento NO programado, sobre las horas totales.")
             .row.col-xl-11.m-auto
               h4 Tiempo medio entre paradas (#[em TMEP])
-              p La fórmula es muy parecida a la anterior, con las diferencias que se sustituye en el numerador las horas de parada por mantenimiento por horas de parada por mantenimiento no programado. 
+              p Es el tiempo medio que ha transcurrido entre dos paradas de mantenimiento, y se requiere para su cálculo en el numerador las horas totales del periodo, y en denominador, el número de paradas.
               figure.m-auto.col-12.col-md-7.col-lg-5.mt-4
                 img(src='@/assets/curso/tema2/9.svg' alt="El TMEP es igual a las horas totales del periodo, sobre la cantidad de paradas.")
             .row.col-xl-11.m-auto

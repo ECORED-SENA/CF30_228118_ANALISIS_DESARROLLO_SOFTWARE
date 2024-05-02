@@ -163,12 +163,6 @@ export default {
       referencia: 'IBM. (2021). <em>Soluciones SAN</em>.',
       link: '',
     },
-    {
-      referencia:
-        'OmniPlayer. (2019). <em>Redundancia y alta disponibilidad</em>.',
-      link:
-        'https://omniplayer.com/es/administracion/redundancia-y-alta-disponibilidad',
-    },
   ],
   creditos: [
     {
