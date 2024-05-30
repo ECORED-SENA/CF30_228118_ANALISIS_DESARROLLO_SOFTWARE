@@ -11,7 +11,7 @@
       .row
         .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
           .p-4.p-lg-5.h-100.text-white(style="background-color:#3A1D71;border-radius:22px;")
-            p.mb-0 En el momento de contratar u ofrecer servicios en la nube, seguramente se debe asesorar o recibir el asesoramiento sobre un conjunto de características o configuraciones que permiten garantizar con mayor seguridad, la operación de los servicios que se van a contratar. No solo se trata de garantizar el almacenamiento de la información, sino la de aquellos servicios que la publican y la procesan. 
+            p.mb-0 En el momento de contratar u ofrecer servicios en la nube, seguramente se debe asesorar o recibir el asesoramiento sobre un conjunto de características o configuraciones que permiten garantizar, con mayor seguridad, la operación de los servicios que se van a contratar. No solo se trata de garantizar el almacenamiento de la información, sino la de aquellos servicios que la publican y la procesan. 
         .col-lg-5(data-aos="fade-left" style="place-self:center;")
           figure.m-auto.col-12.col-md-8.col-lg-12
             img(src="@/assets/curso/intro2.png")

@@ -24,7 +24,7 @@
               .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
                 h4 Redundancia de #[em hardware]
                 p Hace referencia a tener un componente del sistema duplicado. En esta instancia, se puede considerar que los proveedores de servicios en la nube tienen todos esos servicios, que ofrecen operando dentro de Centros de #[em Procesos de Datos] (CPD) o más conocidos como #[em Data Centers], y las máquinas en algún momento terminan fallando, porque tienen un tiempo de vida estimado muy difícil de garantizar. 
-                p Su objetivo no es evitar fallas sino, que no afecten a los usuarios. La forma de lograr esto, es duplicando el dispositivo de manera que cuando falle la máquina los servicios que dependen de ese #[em hardware], sean trasladados de forma automática a un dispositivo que no esté afectado, de tal forma que cuando dos dispositivos están publicados, se puede decir que están redundados. 
+                p Su objetivo no es evitar fallas, sino que no afecten a los usuarios. La forma de lograr esto, es duplicando el dispositivo de manera que cuando falle la máquina los servicios que dependen de ese #[em hardware], sean trasladados de forma automática a un dispositivo que no esté afectado, de tal forma que cuando dos dispositivos están publicados, se puede decir que están redundados. 
               .col-lg-5(style="place-self:center;")
                 figure.m-auto.col-7.col-md-5.col-lg-12
                   img(src='@/assets/curso/tema1/3.png' alt="")
@@ -44,7 +44,7 @@
               .col-lg-5(style="place-self:center;")
                 figure.m-auto.col-7.col-md-5.col-lg-12
                   img(src='@/assets/curso/tema1/5.png' alt="")
-      p.mt-4(data-aos="fade-right") Como se pude inferir, para tener HA se debe tener como mínimo dos sistemas o dispositivos y ambos con idénticos sistemas y características; generalmente se aplica HA a servidores de aplicaciones y a sistemas gestores de base de datos. 
+      p.mt-4(data-aos="fade-right") Como se puede inferir, para tener HA se debe tener como mínimo dos sistemas o dispositivos y ambos con idénticos sistemas y características; generalmente se aplica HA a servidores de aplicaciones y a sistemas gestores de base de datos. 
       .pt-0(style="position:relative")
         .semicircle_absolute.d-none.d-md-block(style="left: unset !important;right: -190px !important;top:-45px;")
         .col-lg-10.m-auto.mt-4
@@ -107,7 +107,7 @@
                 .col(style="place-self:center;")
                   p.mb-0 En un clúster los nodos se interconectan gracias a una tecnología o infraestructura de red, generalmente una ya conocida por la empresa, pensando en la facilidad de mantenimiento y control de los costos. Es así, como cada nodo desempeña la misma función que los demás nodos, siendo posible suprimir o adicionar nuevos cuando sea necesario, aún si el clúster se mantiene en funcionamiento sin interrupciones, de tal forma que estas operaciones de agregar o quitar no perjudican el proceso, porque las tareas se distribuyen automáticamente, sin ocasionar problemas.
             p.mt-4 Para que el sistema sea escalable es importante saber que no existe límite de nodos que se puedan operar en un solo clúster y esto es muy importante cuando las empresas están en proceso de crecimiento continuo.  
-            p Básicamente existen dos tipos de clúster o motivos por los que se configuran los clústeres: 
+            p Básicamente, existen dos tipos de clúster o motivos por los que se configuran los clústeres: 
           .col-lg-3.d-none.d-md-block(data-aos="fade-left" style="place-self:center;")
             figure.m-auto.col-7.col-md-6.col-lg-12
               img(src="@/assets/curso/tema1/9.png" style="place-self:center;")
@@ -120,7 +120,7 @@
             .row.col-xl-11.m-auto(titulo="Clúster de alto desempeño (<em>High Performance Computing Cluster</em>)")
               p Se utiliza cuando el objetivo es resolver problemas que requieren de mucho procesamiento concurrente, es decir, simultáneo, permitiendo realizarlos en un tiempo útil y de manera que satisfaga la expectativa del usuario. Para lograr esto se hace uso de la técnica de balanceo de carga (#[em Load Balancing]), que consiste en repartir las tareas de manera similar o equilibrada (balanceada) entre los nodos.
             .row.col-xl-11.m-auto(titulo="Clúster de alta disponibilidad (<em>High Availability Computing Cluster</em>)")
-              p Su principal objetivo es mantener el sistema en funcionamiento, es decir, está centrado en saber responder automáticamente a fallos sin afectar la continuidad de la prestación del servicio. Para esto, es necesario dotar al clúster de herramientas control y monitoreo de fallas en la interconexión o en los nodos, redundancia de sistemas, sistemas sustitutos o de respaldo, entre otros. 
+              p Su principal objetivo es mantener el sistema en funcionamiento, es decir, está centrado en saber responder automáticamente a fallos sin afectar la continuidad de la prestación del servicio. Para esto, es necesario dotar al clúster de herramientas, control y monitoreo de fallas en la interconexión o en los nodos, redundancia de sistemas, sistemas sustitutos o de respaldo, entre otros. 
     
     Separador
 
