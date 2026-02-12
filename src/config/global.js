@@ -151,8 +151,7 @@ export default {
     {
       referencia:
         'Axioma B2B Marketing. (2021). <em>Fórmulas de cálculo de indicadores de disponibilidad</em>.',
-      link:
-        'https://www.reporteroindustrial.com/blogs/Formulas-de-calculo-de-indicadores-de-disponibilidad+115450',
+      link: '',
     },
     {
       referencia:
